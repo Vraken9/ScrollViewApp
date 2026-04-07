@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/bg_ivory">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Top Image Placeholder -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@color/img_placeholder">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="[Gambar Anggrek]"
+                android:textColor="@color/text_light"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TIPS &amp; TRIK"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/sage_green"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Panduan Merawat Anggrek di Dalam Ruangan"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_dark"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Author Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="24dp">
+
+                <View
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@color/img_placeholder"
+                    android:layout_marginEnd="12dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Akhyar Florist"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_dark"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 April 2026 • 5 min read"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_medium"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color"
+                android:layout_marginBottom="24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anggrek adalah primadona tanaman hias indoor. Namun, banyak yang menganggap perawatannya sulit. Padahal, dengan pencahayaan dan penyiraman yang tepat, anggrek bisa berbunga sepanjang tahun.\n\nKunci pertama adalah cahaya. Letakkan anggrek di dekat jendela yang menghadap ke timur atau selatan, namun pastikan tidak terkena sinar matahari langsung pada siang hari terik. Sinar yang terlalu panas bisa membakar daunnya, membuatnya berubah warna menjadi kekuningan."
+                android:textSize="16sp"
+                android:textColor="@color/text_medium"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginBottom="24dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/img_placeholder"
+                android:padding="20dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="💡"
+                    android:textSize="20sp"
+                    android:layout_marginEnd="12dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tips Ahli: Jangan pernah membiarkan pot anggrek terendam air. Akar yang terlalu basah akan cepat membusuk."
+                    android:textColor="@color/sage_green_dark"
+                    android:textSize="15sp"
+                    android:lineSpacingExtra="4dp"
+                    android:textStyle="italic"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kedua, masalah penyiraman. Lebih baik anggrek sedikit kekurangan air daripada kelebihan air. Siramlah secara merata ke seluruh media tanam hanya ketika akar dan medianya sudah terlihat mengering. \n\nLangkah terakhir adalah kelembapan udara. Anggrek menyukai lingkungan yang lembap. Jika ruangan Anda ber-AC, semprotkan air di sekitar tanaman (bukan langsung pada bunganya) secara berkala menggunakan sprayer halus."
+                android:textSize="16sp"
+                android:textColor="@color/text_medium"
+                android:lineSpacingExtra="8dp"
+                android:layout_marginBottom="40dp"/>
+
+            <!-- Product Rating / Stars -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:textColor="@color/yellow_star" android:textSize="24sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:textColor="@color/yellow_star" android:textSize="24sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:textColor="@color/yellow_star" android:textSize="24sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:textColor="@color/yellow_star" android:textSize="24sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="★" android:textColor="@color/yellow_star" android:textSize="24sp"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.9 / 5 dari Ratusan Pelanggan"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/text_light"
+                android:layout_marginBottom="24dp"/>
+
+            <Button
+                android:id="@+id/btn_collection"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Lihat Koleksi Anggrek Kami"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:backgroundTint="@color/sage_green"
+                android:textColor="@color/white"
+                android:elevation="4dp"
+                android:layout_marginBottom="16dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
